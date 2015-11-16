@@ -1,0 +1,66 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "88D6B87B84668536F5A39D8CF7862FD38EB83868",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : {
+
+    },
+    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : {
+
+    },
+    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : 0,
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : 0,
+    "88D6B87B84668536F5A39D8CF7862FD38EB83868" : 0,
+    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : 0,
+    "07E3463F223BC0C89BF65B81169BF8779AA95848" : 0,
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4CB931EC-E8B6-489A-AF95-19D5A208B808",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : "google-api-objectivec-client\/",
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : "demoworkspace\/3rd-party\/",
+    "88D6B87B84668536F5A39D8CF7862FD38EB83868" : "demoworkspace\/",
+    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : "google-api-objectivec-client\/Source\/HTTPFetcher\/",
+    "07E3463F223BC0C89BF65B81169BF8779AA95848" : "nekit\/",
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : "google-api-objectivec-client\/Source\/OAuth2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "demo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/google-api-objectivec-client.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "052f66bb-8366-e9ed-b056-95094e25c79e++505"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/27629678\/NEKit_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07E3463F223BC0C89BF65B81169BF8779AA95848"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/gtm-oauth2.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22754eea-fc93-e339-b032-c1f495b90c16++2896"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/27629678\/Demo_WorkSpace.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88D6B87B84668536F5A39D8CF7862FD38EB83868"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/google-api-objectivec-client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/gtm-http-fetcher.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b3aa69f0-f65c-a609-0a27-78855af037c1++2896"
+    }
+  ]
+}
