@@ -30,8 +30,6 @@
 		DA4B9D5C1BDF78A700440689 /* Demo_ForLoop_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D5B1BDF78A700440689 /* Demo_ForLoop_Test.m */; };
 		DA4B9D6E1BE097F100440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
 		DA4B9D6F1BE09AD300440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
-		DA61CDD71BC770FB0053C4C7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DA61CDD61BC76E900053C4C7 /* debug.xcconfig */; };
-		DA61CDD81BC770FE0053C4C7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DA61CDD61BC76E900053C4C7 /* debug.xcconfig */; };
 		DAAA96801BF9A934003B0F0C /* NEDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAA967B1BF9A923003B0F0C /* NEDevKit.framework */; };
 		DAD767FE1BD4D4D2005247A3 /* MySwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD767FD1BD4D4D2005247A3 /* MySwiftTest.swift */; };
 		DAD768071BD4F664005247A3 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD768061BD4F664005247A3 /* TextTableViewCell.swift */; };
@@ -410,7 +408,7 @@
 			attributes = {
 				CLASSPREFIX = XY;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "X Co., Ltd.";
 				TargetAttributes = {
 					7F76B82F1B8B52140026D8F6 = {
@@ -481,7 +479,6 @@
 				7F76B8441B8B52140026D8F6 /* LaunchScreen.xib in Resources */,
 				DAD7680B1BD5D89A005247A3 /* TextViewController.xib in Resources */,
 				7F76B8411B8B52140026D8F6 /* Images.xcassets in Resources */,
-				DA61CDD71BC770FB0053C4C7 /* debug.xcconfig in Resources */,
 				DAD768151BD62313005247A3 /* SignatureTableViewCell.xib in Resources */,
 				7F9FF9281B9E750500006261 /* main.js in Resources */,
 				DA06BC091BD4C92700D65D4D /* TextTableViewController.xib in Resources */,
@@ -492,7 +489,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA61CDD81BC770FE0053C4C7 /* debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +585,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -702,6 +699,7 @@
 				);
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.netease.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
@@ -718,6 +716,7 @@
 				);
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.netease.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
