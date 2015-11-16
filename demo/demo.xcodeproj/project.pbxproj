@@ -408,9 +408,10 @@
 		7F76B8281B8B52140026D8F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XY;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = "NetEase (hangzhou) Network Co.,Ltd.";
+				ORGANIZATIONNAME = "X Co., Ltd.";
 				TargetAttributes = {
 					7F76B82F1B8B52140026D8F6 = {
 						CreatedOnToolsVersion = 6.4;
