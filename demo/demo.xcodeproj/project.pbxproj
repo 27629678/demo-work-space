@@ -25,7 +25,6 @@
 		7FD2CBC71B8CA8480091E81C /* NEJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2CBC61B8CA8480091E81C /* NEJsonModel.m */; };
 		7FD2CBCA1B8CA8F70091E81C /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2CBC91B8CA8F70091E81C /* JSONValueTransformer.m */; };
 		7FD2CBCD1B8CAA980091E81C /* Demo_JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2CBCC1B8CAA980091E81C /* Demo_JsonModel.m */; };
-		DA06BC031BD4C74600D65D4D /* NEDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA06BBFE1BD4C73300D65D4D /* NEDevKit.framework */; };
 		DA06BC081BD4C92700D65D4D /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06BC061BD4C92700D65D4D /* TextTableViewController.swift */; };
 		DA06BC091BD4C92700D65D4D /* TextTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA06BC071BD4C92700D65D4D /* TextTableViewController.xib */; };
 		DA4B9D5C1BDF78A700440689 /* Demo_ForLoop_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D5B1BDF78A700440689 /* Demo_ForLoop_Test.m */; };
@@ -33,6 +32,7 @@
 		DA4B9D6F1BE09AD300440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
 		DA61CDD71BC770FB0053C4C7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DA61CDD61BC76E900053C4C7 /* debug.xcconfig */; };
 		DA61CDD81BC770FE0053C4C7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DA61CDD61BC76E900053C4C7 /* debug.xcconfig */; };
+		DAAA96801BF9A934003B0F0C /* NEDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAA967B1BF9A923003B0F0C /* NEDevKit.framework */; };
 		DAD767FE1BD4D4D2005247A3 /* MySwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD767FD1BD4D4D2005247A3 /* MySwiftTest.swift */; };
 		DAD768071BD4F664005247A3 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD768061BD4F664005247A3 /* TextTableViewCell.swift */; };
 		DAD7680A1BD5D89A005247A3 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD768081BD5D89A005247A3 /* TextViewController.swift */; };
@@ -51,23 +51,23 @@
 			remoteGlobalIDString = 7F76B82F1B8B52140026D8F6;
 			remoteInfo = Demo;
 		};
-		DA06BBFD1BD4C73300D65D4D /* PBXContainerItemProxy */ = {
+		DAAA967A1BF9A923003B0F0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DA06BBF71BD4C73300D65D4D /* NEDevKit.xcodeproj */;
+			containerPortal = DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DA9165E81BCDF8B200FF3735;
 			remoteInfo = NEDevKit;
 		};
-		DA06BBFF1BD4C73300D65D4D /* PBXContainerItemProxy */ = {
+		DAAA967C1BF9A923003B0F0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DA06BBF71BD4C73300D65D4D /* NEDevKit.xcodeproj */;
+			containerPortal = DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DA91661A1BCDF93D00FF3735;
 			remoteInfo = DevKitUI;
 		};
-		DA06BC011BD4C73300D65D4D /* PBXContainerItemProxy */ = {
+		DAAA967E1BF9A923003B0F0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DA06BBF71BD4C73300D65D4D /* NEDevKit.xcodeproj */;
+			containerPortal = DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DA17C7BB1BCDFE37000381B6;
 			remoteInfo = NEDevKitTests;
@@ -108,7 +108,6 @@
 		7FD2CBC91B8CA8F70091E81C /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = NEJsonModel/JSONValueTransformer.m; sourceTree = "<group>"; };
 		7FD2CBCB1B8CAA980091E81C /* Demo_JsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo_JsonModel.h; path = NEJsonModel/Demo_JsonModel.h; sourceTree = "<group>"; };
 		7FD2CBCC1B8CAA980091E81C /* Demo_JsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo_JsonModel.m; path = NEJsonModel/Demo_JsonModel.m; sourceTree = "<group>"; };
-		DA06BBF71BD4C73300D65D4D /* NEDevKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NEDevKit.xcodeproj; path = ../../nekit/NEDevKit.xcodeproj; sourceTree = "<group>"; };
 		DA06BC051BD4C92700D65D4D /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA06BC061BD4C92700D65D4D /* TextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewController.swift; sourceTree = "<group>"; };
 		DA06BC071BD4C92700D65D4D /* TextTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableViewController.xib; sourceTree = "<group>"; };
@@ -117,6 +116,7 @@
 		DA4B9D6D1BE097F100440689 /* NENode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENode.m; sourceTree = "<group>"; };
 		DA61CDD61BC76E900053C4C7 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
 		DA61CE181BC7C3200053C4C7 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NEDevKit.xcodeproj; path = "../demo/3rd-party/NEDevKit.xcodeproj"; sourceTree = "<group>"; };
 		DAD767FD1BD4D4D2005247A3 /* MySwiftTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySwiftTest.swift; path = Swift/MySwiftTest.swift; sourceTree = "<group>"; };
 		DAD768061BD4F664005247A3 /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		DAD768081BD5D89A005247A3 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA06BC031BD4C74600D65D4D /* NEDevKit.framework in Frameworks */,
+				DAAA96801BF9A934003B0F0C /* NEDevKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,16 +290,6 @@
 			name = NEJsonModel;
 			sourceTree = "<group>";
 		};
-		DA06BBF81BD4C73300D65D4D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DA06BBFE1BD4C73300D65D4D /* NEDevKit.framework */,
-				DA06BC001BD4C73300D65D4D /* DevKitUI.app */,
-				DA06BC021BD4C73300D65D4D /* NEDevKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		DA06BC041BD4C81400D65D4D /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,9 +323,19 @@
 		DA61CDF21BC7AB1A0053C4C7 /* 3rd-party */ = {
 			isa = PBXGroup;
 			children = (
-				DA06BBF71BD4C73300D65D4D /* NEDevKit.xcodeproj */,
+				DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */,
 			);
 			name = "3rd-party";
+			sourceTree = "<group>";
+		};
+		DAAA96751BF9A923003B0F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAAA967B1BF9A923003B0F0C /* NEDevKit.framework */,
+				DAAA967D1BF9A923003B0F0C /* DevKitUI.app */,
+				DAAA967F1BF9A923003B0F0C /* NEDevKitTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		DAD767F91BD4D491005247A3 /* Swift */ = {
@@ -434,8 +434,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = DA06BBF81BD4C73300D65D4D /* Products */;
-					ProjectRef = DA06BBF71BD4C73300D65D4D /* NEDevKit.xcodeproj */;
+					ProductGroup = DAAA96751BF9A923003B0F0C /* Products */;
+					ProjectRef = DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -447,25 +447,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		DA06BBFE1BD4C73300D65D4D /* NEDevKit.framework */ = {
+		DAAA967B1BF9A923003B0F0C /* NEDevKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NEDevKit.framework;
-			remoteRef = DA06BBFD1BD4C73300D65D4D /* PBXContainerItemProxy */;
+			remoteRef = DAAA967A1BF9A923003B0F0C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DA06BC001BD4C73300D65D4D /* DevKitUI.app */ = {
+		DAAA967D1BF9A923003B0F0C /* DevKitUI.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = DevKitUI.app;
-			remoteRef = DA06BBFF1BD4C73300D65D4D /* PBXContainerItemProxy */;
+			remoteRef = DAAA967C1BF9A923003B0F0C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DA06BC021BD4C73300D65D4D /* NEDevKitTests.xctest */ = {
+		DAAA967F1BF9A923003B0F0C /* NEDevKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = NEDevKitTests.xctest;
-			remoteRef = DA06BC011BD4C73300D65D4D /* PBXContainerItemProxy */;
+			remoteRef = DAAA967E1BF9A923003B0F0C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

@@ -1,5 +1,5 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "88D6B87B84668536F5A39D8CF7862FD38EB83868",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D324E39789C8A11D2BDECB1D770CE0300081435C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "22754eea-fc93-e339-b032-c1f495b90c16++2896" : {
 
@@ -12,21 +12,25 @@
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : 0,
     "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : 0,
-    "88D6B87B84668536F5A39D8CF7862FD38EB83868" : 0,
-    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : 0,
     "07E3463F223BC0C89BF65B81169BF8779AA95848" : 0,
-    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : 0
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : 0,
+    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : 0,
+    "88D6B87B84668536F5A39D8CF7862FD38EB83868" : 0,
+    "D324E39789C8A11D2BDECB1D770CE0300081435C" : 0,
+    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : 0,
+    "2D8A02A3717086D8B9DA648B3F9A84A1B5BD25CA" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4CB931EC-E8B6-489A-AF95-19D5A208B808",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : "google-api-objectivec-client\/",
     "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : "demoworkspace\/3rd-party\/",
-    "88D6B87B84668536F5A39D8CF7862FD38EB83868" : "demoworkspace\/",
-    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : "google-api-objectivec-client\/Source\/HTTPFetcher\/",
     "07E3463F223BC0C89BF65B81169BF8779AA95848" : "nekit\/",
-    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : "google-api-objectivec-client\/Source\/OAuth2\/"
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : "google-api-objectivec-client\/Source\/OAuth2\/",
+    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : "google-api-objectivec-client\/",
+    "88D6B87B84668536F5A39D8CF7862FD38EB83868" : "demoworkspace\/",
+    "D324E39789C8A11D2BDECB1D770CE0300081435C" : "demo-work-space\/",
+    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : "google-api-objectivec-client\/Source\/HTTPFetcher\/",
+    "2D8A02A3717086D8B9DA648B3F9A84A1B5BD25CA" : "demo-work-space\/demo\/3rd-party\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "demo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -48,9 +52,19 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22754eea-fc93-e339-b032-c1f495b90c16++2896"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/27629678\/uitoolkit_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D8A02A3717086D8B9DA648B3F9A84A1B5BD25CA"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/27629678\/Demo_WorkSpace.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88D6B87B84668536F5A39D8CF7862FD38EB83868"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/27629678\/demo-work-space.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D324E39789C8A11D2BDECB1D770CE0300081435C"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/google-api-objectivec-client.git",
