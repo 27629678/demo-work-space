@@ -666,7 +666,7 @@
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "d.netease.Demo-iOS1";
+				PRODUCT_BUNDLE_IDENTIFIER = d.netease.demo;
 				SWIFT_OBJC_BRIDGING_HEADER = "Demo/UITextView/Demo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -682,7 +682,7 @@
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "d.netease.Demo-iOS1";
+				PRODUCT_BUNDLE_IDENTIFIER = d.netease.demo;
 				SWIFT_OBJC_BRIDGING_HEADER = "Demo/UITextView/Demo-Bridging-Header.h";
 			};
 			name = Release;
