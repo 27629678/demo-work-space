@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+#import "XYStackBlock.h"
 #import "XYGlobalBlock.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         [[XYGlobalBlock new] runBlock];
-        
+        [[XYStackBlock new] runBlock];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
