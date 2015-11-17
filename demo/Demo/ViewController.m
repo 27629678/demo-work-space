@@ -17,6 +17,7 @@
 #import "Demo-Bridging-Header.h"
 
 #import "objc-Swift.h"
+#import "XYCharacterEscaper.h"
 
 @interface ViewController ()
 
@@ -31,6 +32,7 @@
 @implementation ViewController
 {
     BOOL _isFirstAppear;
+    UITextField* _character_text_field;
 }
 
 - (void)viewDidLoad {
@@ -72,9 +74,13 @@
     
     UIButton* btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 80, 40, 20)];
     [btn setBackgroundColor:[UIColor blueColor]];
-    [btn addTarget:self action:@selector(presentTextVCAction:) forControlEvents:UIControlEventTouchUpInside];
+    [btn addTarget:self action:@selector(doCharacterEscapeAction:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:btn];
+    
+    _character_text_field = [[UITextField alloc] initWithFrame:CGRectMake(10, 120, 80, 20)];
+    [_character_text_field setBackgroundColor:[UIColor grayColor]];
+    [self.view addSubview:_character_text_field];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -82,7 +88,6 @@
     [super viewDidAppear:animated];
     
     if (!self->_isFirstAppear) {
-        [self presentTextVCAction:nil];
         self->_isFirstAppear = YES;
     }
 }
@@ -96,6 +101,16 @@
 //    [self presentViewController:tvc animated:YES completion:NULL];
     __unused UINavigationController* nvc = [[UINavigationController alloc] initWithRootViewController:svc];
     [self presentViewController:nvc animated:YES completion:NULL];
+}
+
+- (void)doCharacterEscapeAction:(id)sender
+{
+    NSString* source = _character_text_field.text;
+    
+    XYCharacterEscaper* escaper = [XYCharacterEscaper escaperWithSource:source];
+    escaper.escapeSemicolon();
+    escaper.unescapeSemicolon();
+    NSLog(@"Escape Result:%@", escaper.value);
 }
 
 @end
