@@ -27,13 +27,17 @@
 		7FD2CBCD1B8CAA980091E81C /* Demo_JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2CBCC1B8CAA980091E81C /* Demo_JsonModel.m */; };
 		DA06BC081BD4C92700D65D4D /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06BC061BD4C92700D65D4D /* TextTableViewController.swift */; };
 		DA06BC091BD4C92700D65D4D /* TextTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA06BC071BD4C92700D65D4D /* TextTableViewController.xib */; };
+		DA088E621BFDD2D3002B5118 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA088E5D1BFDD2D3002B5118 /* .gitignore */; };
+		DA088E631BFDD2D3002B5118 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DA088E5E1BFDD2D3002B5118 /* LICENSE */; };
+		DA088E641BFDD2D3002B5118 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DA088E5F1BFDD2D3002B5118 /* README.md */; };
+		DA088E651BFDD2D3002B5118 /* XYCharacterEscaper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA088E611BFDD2D3002B5118 /* XYCharacterEscaper.m */; };
+		DA088E721BFDD2DF002B5118 /* NEDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA088E6D1BFDD2D6002B5118 /* NEDevKit.framework */; };
 		DA3C5BCE1BFB78C900186E55 /* XYStackBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BCD1BFB78C900186E55 /* XYStackBlock.m */; };
 		DA3C5BD11BFB79C700186E55 /* XYMallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BD01BFB79C700186E55 /* XYMallocBlock.m */; };
 		DA4B9D5C1BDF78A700440689 /* Demo_ForLoop_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D5B1BDF78A700440689 /* Demo_ForLoop_Test.m */; };
 		DA4B9D6E1BE097F100440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
 		DA4B9D6F1BE09AD300440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
 		DAA082AC1BFB7649005657B0 /* XYGlobalBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA082AB1BFB7649005657B0 /* XYGlobalBlock.m */; };
-		DAAA96801BF9A934003B0F0C /* NEDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAA967B1BF9A923003B0F0C /* NEDevKit.framework */; };
 		DAD767FE1BD4D4D2005247A3 /* MySwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD767FD1BD4D4D2005247A3 /* MySwiftTest.swift */; };
 		DAD768071BD4F664005247A3 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD768061BD4F664005247A3 /* TextTableViewCell.swift */; };
 		DAD7680A1BD5D89A005247A3 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD768081BD5D89A005247A3 /* TextViewController.swift */; };
@@ -52,23 +56,23 @@
 			remoteGlobalIDString = 7F76B82F1B8B52140026D8F6;
 			remoteInfo = Demo;
 		};
-		DAAA967A1BF9A923003B0F0C /* PBXContainerItemProxy */ = {
+		DA088E6C1BFDD2D6002B5118 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */;
+			containerPortal = DA088E661BFDD2D6002B5118 /* NEDevKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DA9165E81BCDF8B200FF3735;
 			remoteInfo = NEDevKit;
 		};
-		DAAA967C1BF9A923003B0F0C /* PBXContainerItemProxy */ = {
+		DA088E6E1BFDD2D6002B5118 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */;
+			containerPortal = DA088E661BFDD2D6002B5118 /* NEDevKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DA91661A1BCDF93D00FF3735;
 			remoteInfo = DevKitUI;
 		};
-		DAAA967E1BF9A923003B0F0C /* PBXContainerItemProxy */ = {
+		DA088E701BFDD2D6002B5118 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */;
+			containerPortal = DA088E661BFDD2D6002B5118 /* NEDevKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DA17C7BB1BCDFE37000381B6;
 			remoteInfo = NEDevKitTests;
@@ -112,6 +116,12 @@
 		DA06BC051BD4C92700D65D4D /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA06BC061BD4C92700D65D4D /* TextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewController.swift; sourceTree = "<group>"; };
 		DA06BC071BD4C92700D65D4D /* TextTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableViewController.xib; sourceTree = "<group>"; };
+		DA088E5D1BFDD2D3002B5118 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA088E5E1BFDD2D3002B5118 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA088E5F1BFDD2D3002B5118 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA088E601BFDD2D3002B5118 /* XYCharacterEscaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCharacterEscaper.h; sourceTree = "<group>"; };
+		DA088E611BFDD2D3002B5118 /* XYCharacterEscaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCharacterEscaper.m; sourceTree = "<group>"; };
+		DA088E661BFDD2D6002B5118 /* NEDevKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NEDevKit.xcodeproj; path = "../demo/3rd-party/uitoolkit_ios/NEDevKit.xcodeproj"; sourceTree = "<group>"; };
 		DA3C5BCC1BFB78C900186E55 /* XYStackBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYStackBlock.h; sourceTree = "<group>"; };
 		DA3C5BCD1BFB78C900186E55 /* XYStackBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYStackBlock.m; sourceTree = "<group>"; };
 		DA3C5BCF1BFB79C700186E55 /* XYMallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMallocBlock.h; sourceTree = "<group>"; };
@@ -123,7 +133,6 @@
 		DA61CE181BC7C3200053C4C7 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
 		DAA082AA1BFB7649005657B0 /* XYGlobalBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYGlobalBlock.h; sourceTree = "<group>"; };
 		DAA082AB1BFB7649005657B0 /* XYGlobalBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYGlobalBlock.m; sourceTree = "<group>"; };
-		DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NEDevKit.xcodeproj; path = "../demo/3rd-party/NEDevKit.xcodeproj"; sourceTree = "<group>"; };
 		DAD767FD1BD4D4D2005247A3 /* MySwiftTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySwiftTest.swift; path = Swift/MySwiftTest.swift; sourceTree = "<group>"; };
 		DAD768061BD4F664005247A3 /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		DAD768081BD5D89A005247A3 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAAA96801BF9A934003B0F0C /* NEDevKit.framework in Frameworks */,
+				DA088E721BFDD2DF002B5118 /* NEDevKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +183,9 @@
 		7F76B8271B8B52140026D8F6 = {
 			isa = PBXGroup;
 			children = (
+				DA088E5B1BFDD2C5002B5118 /* 3rd-party */,
 				DAA082A91BFB7613005657B0 /* Block */,
 				DA4B9D681BE097D700440689 /* ChainCoding */,
-				DA61CDF21BC7AB1A0053C4C7 /* 3rd-party */,
 				7FCC3E281B9C61AF004DD872 /* JavacriptCore */,
 				7F6038EC1B91836B00B1E362 /* NEVariableArguments */,
 				7F86C14B1B8F4081002570FC /* NEWebView */,
@@ -311,6 +320,38 @@
 			path = UITextView;
 			sourceTree = "<group>";
 		};
+		DA088E5B1BFDD2C5002B5118 /* 3rd-party */ = {
+			isa = PBXGroup;
+			children = (
+				DA088E661BFDD2D6002B5118 /* NEDevKit.xcodeproj */,
+				DA088E5C1BFDD2D3002B5118 /* character_escaper */,
+			);
+			name = "3rd-party";
+			sourceTree = "<group>";
+		};
+		DA088E5C1BFDD2D3002B5118 /* character_escaper */ = {
+			isa = PBXGroup;
+			children = (
+				DA088E5D1BFDD2D3002B5118 /* .gitignore */,
+				DA088E5E1BFDD2D3002B5118 /* LICENSE */,
+				DA088E5F1BFDD2D3002B5118 /* README.md */,
+				DA088E601BFDD2D3002B5118 /* XYCharacterEscaper.h */,
+				DA088E611BFDD2D3002B5118 /* XYCharacterEscaper.m */,
+			);
+			name = character_escaper;
+			path = "../demo/3rd-party/character_escaper";
+			sourceTree = "<group>";
+		};
+		DA088E671BFDD2D6002B5118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA088E6D1BFDD2D6002B5118 /* NEDevKit.framework */,
+				DA088E6F1BFDD2D6002B5118 /* DevKitUI.app */,
+				DA088E711BFDD2D6002B5118 /* NEDevKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		DA4B9D681BE097D700440689 /* ChainCoding */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,14 +369,6 @@
 			path = configs;
 			sourceTree = SOURCE_ROOT;
 		};
-		DA61CDF21BC7AB1A0053C4C7 /* 3rd-party */ = {
-			isa = PBXGroup;
-			children = (
-				DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */,
-			);
-			name = "3rd-party";
-			sourceTree = "<group>";
-		};
 		DAA082A91BFB7613005657B0 /* Block */ = {
 			isa = PBXGroup;
 			children = (
@@ -348,16 +381,6 @@
 			);
 			name = Block;
 			path = ../demo/Block;
-			sourceTree = "<group>";
-		};
-		DAAA96751BF9A923003B0F0C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DAAA967B1BF9A923003B0F0C /* NEDevKit.framework */,
-				DAAA967D1BF9A923003B0F0C /* DevKitUI.app */,
-				DAAA967F1BF9A923003B0F0C /* NEDevKitTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DAD767F91BD4D491005247A3 /* Swift */ = {
@@ -457,8 +480,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = DAAA96751BF9A923003B0F0C /* Products */;
-					ProjectRef = DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */;
+					ProductGroup = DA088E671BFDD2D6002B5118 /* Products */;
+					ProjectRef = DA088E661BFDD2D6002B5118 /* NEDevKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -470,25 +493,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		DAAA967B1BF9A923003B0F0C /* NEDevKit.framework */ = {
+		DA088E6D1BFDD2D6002B5118 /* NEDevKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NEDevKit.framework;
-			remoteRef = DAAA967A1BF9A923003B0F0C /* PBXContainerItemProxy */;
+			remoteRef = DA088E6C1BFDD2D6002B5118 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DAAA967D1BF9A923003B0F0C /* DevKitUI.app */ = {
+		DA088E6F1BFDD2D6002B5118 /* DevKitUI.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = DevKitUI.app;
-			remoteRef = DAAA967C1BF9A923003B0F0C /* PBXContainerItemProxy */;
+			remoteRef = DA088E6E1BFDD2D6002B5118 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DAAA967F1BF9A923003B0F0C /* NEDevKitTests.xctest */ = {
+		DA088E711BFDD2D6002B5118 /* NEDevKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = NEDevKitTests.xctest;
-			remoteRef = DAAA967E1BF9A923003B0F0C /* PBXContainerItemProxy */;
+			remoteRef = DA088E701BFDD2D6002B5118 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -502,9 +525,11 @@
 				7F76B83F1B8B52140026D8F6 /* Main.storyboard in Resources */,
 				7F76B8441B8B52140026D8F6 /* LaunchScreen.xib in Resources */,
 				DAD7680B1BD5D89A005247A3 /* TextViewController.xib in Resources */,
+				DA088E631BFDD2D3002B5118 /* LICENSE in Resources */,
 				7F76B8411B8B52140026D8F6 /* Images.xcassets in Resources */,
 				DAD768151BD62313005247A3 /* SignatureTableViewCell.xib in Resources */,
 				7F9FF9281B9E750500006261 /* main.js in Resources */,
+				DA088E621BFDD2D3002B5118 /* .gitignore in Resources */,
 				DA06BC091BD4C92700D65D4D /* TextTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +554,8 @@
 				7F76B83C1B8B52140026D8F6 /* ViewController.m in Sources */,
 				DA4B9D6E1BE097F100440689 /* NENode.m in Sources */,
 				7FD2CBCD1B8CAA980091E81C /* Demo_JsonModel.m in Sources */,
+				DA088E641BFDD2D3002B5118 /* README.md in Sources */,
+				DA088E651BFDD2D3002B5118 /* XYCharacterEscaper.m in Sources */,
 				DA3C5BD11BFB79C700186E55 /* XYMallocBlock.m in Sources */,
 				DAD768141BD62313005247A3 /* SignatureTableViewCell.swift in Sources */,
 				7F76B8391B8B52140026D8F6 /* AppDelegate.m in Sources */,
