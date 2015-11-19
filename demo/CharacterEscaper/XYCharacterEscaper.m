@@ -51,6 +51,62 @@
     };
 }
 
+- (XYEscaperHandler)escapeColon
+{
+    return ^ () {
+        [self escape:@":" into:@"\\:"];
+        
+        return self;
+    };
+}
+
+- (XYEscaperHandler)unescapeColon
+{
+    return ^ () {
+        [self unescape:@"\\:" into:@":"];
+        
+        return self;
+    };
+}
+
+- (XYEscaperHandler)escapeComma
+{
+    return ^ () {
+        [self escape:@"," into:@"\\,"];
+        
+        return self;
+    };
+}
+
+- (XYEscaperHandler)unescapeComma
+{
+    return ^ () {
+        [self unescape:@"\\," into:@","];
+        
+        return self;
+    };
+}
+
+- (XYEscaperHandler)escapeCTLF
+{
+    return ^ () {
+        [self escape:@"\n" into:@"\\n"];
+        [self escape:@"\r" into:@"\\r"];
+        
+        return self;
+    };
+}
+
+- (XYEscaperHandler)unescapeCTLF
+{
+    return ^ () {
+        [self unescape:@"\\n" into:@"\n"];
+        [self unescape:@"\\r" into:@"\r"];
+        
+        return self;
+    };
+}
+
 - (void)escape:(NSString *)character into:(NSString *)escaped_character
 {
     _source = [_source stringByReplacingOccurrencesOfString:escaped_character withString:character];

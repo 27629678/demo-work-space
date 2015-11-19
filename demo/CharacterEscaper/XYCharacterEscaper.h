@@ -22,4 +22,16 @@ typedef XYCharacterEscaper* (^XYEscaperHandler)();
 
 - (XYEscaperHandler)unescapeSemicolon;
 
+- (XYEscaperHandler)escapeComma;
+
+- (XYEscaperHandler)unescapeComma;
+
+- (XYEscaperHandler)escapeColon;
+
+- (XYEscaperHandler)unescapeColon;
+
+- (XYEscaperHandler)escapeCTLF;
+
+- (XYEscaperHandler)unescapeCTLF;
+
 @end

@@ -80,7 +80,7 @@
     
     _character_text_field = [[UITextField alloc] initWithFrame:CGRectMake(10, 120, 80, 20)];
     [_character_text_field setBackgroundColor:[UIColor grayColor]];
-    [_character_text_field setText:@";,\\;\\;\\;:\\:"];
+    [_character_text_field setText:@";,\\;\\;\\;:\\:\n"];
     [self.view addSubview:_character_text_field];
 }
 
@@ -111,10 +111,23 @@
     XYCharacterEscaper* escaper = [XYCharacterEscaper escaperWithSource:source];
     NSLog(@"\nSource:\t\t%@"
           "\nSemicolon:\t\t%@"
-          "\nUnsemicolon:\t%@",
+          "\nUnsemicolon:\t%@"
+          "\nColon:\t\t%@"
+          "\nUncolon:\t\t%@"
+          "\nComma:\t\t%@"
+          "\nUncomma:\t\t%@"
+          "\nCTLF:\t\t\t%@"
+          "\nUnCTLF:\t\t%@",
           escaper.value,
           escaper.escapeSemicolon().value,
-          escaper.unescapeSemicolon().value);
+          escaper.unescapeSemicolon().value,
+          escaper.escapeColon().value,
+          escaper.unescapeColon().value,
+          escaper.escapeComma().value,
+          escaper.unescapeComma().value,
+          escaper.unescapeCTLF().value,
+          escaper.escapeCTLF().value
+          );
     
 }
 
