@@ -1,3 +1,0 @@
-[submodule "demo/3rd-party"]
-	path = demo/3rd-party
-	url = https://github.com/27629678/uitoolkit_ios.git
