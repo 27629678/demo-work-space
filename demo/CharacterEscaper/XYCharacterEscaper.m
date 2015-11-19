@@ -36,8 +36,7 @@
 - (XYEscaperHandler)escapeSemicolon
 {
     return ^() {
-        NSString* target = [_source stringByReplacingOccurrencesOfString:@"\\;" withString:@";"];
-        _source = [target stringByReplacingOccurrencesOfString:@";" withString:@"\\;"];
+        [self escape:@";" into:@"\\;"];
         
         return self;
     };
@@ -46,10 +45,21 @@
 - (XYEscaperHandler)unescapeSemicolon
 {
     return ^ () {
-        _source = [_source stringByReplacingOccurrencesOfString:@"\\;" withString:@";"];
+        [self unescape:@"\\;" into:@";"];
         
         return self;
     };
+}
+
+- (void)escape:(NSString *)character into:(NSString *)escaped_character
+{
+    _source = [_source stringByReplacingOccurrencesOfString:escaped_character withString:character];
+    _source = [_source stringByReplacingOccurrencesOfString:character withString:escaped_character];
+}
+
+- (void)unescape:(NSString *)escaped_character into:(NSString *)character
+{
+    _source = [_source stringByReplacingOccurrencesOfString:escaped_character withString:character];
 }
 
 @end
