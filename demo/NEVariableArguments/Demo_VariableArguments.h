@@ -3,7 +3,7 @@
 //  Demo
 //
 //  Created by H-YXH on 8/29/15.
-//  Copyright (c) 2015 NetEase (hangzhou) Network Co.,Ltd. All rights reserved.
+//  Copyright © 2015年 X Co., Ltd. All rights reserved.
 //
 
 #import "NETest.h"

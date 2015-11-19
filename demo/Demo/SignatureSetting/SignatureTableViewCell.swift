@@ -3,7 +3,7 @@
 //  Demo
 //
 //  Created by sddz_yuxiaohua on 15/10/20.
-//  Copyright © 2015年 NetEase (hangzhou) Network Co.,Ltd. All rights reserved.
+//  Copyright © 2015年 X Co., Ltd. All rights reserved.
 //
 
 import UIKit
