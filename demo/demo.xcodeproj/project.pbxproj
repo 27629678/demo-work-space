@@ -27,13 +27,13 @@
 		7FD2CBCD1B8CAA980091E81C /* Demo_JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2CBCC1B8CAA980091E81C /* Demo_JsonModel.m */; };
 		DA06BC081BD4C92700D65D4D /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06BC061BD4C92700D65D4D /* TextTableViewController.swift */; };
 		DA06BC091BD4C92700D65D4D /* TextTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA06BC071BD4C92700D65D4D /* TextTableViewController.xib */; };
-		DA3C5BCE1BFB78C900186E55 /* XYStackBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BCD1BFB78C900186E55 /* XYStackBlock.m */; settings = {ASSET_TAGS = (); }; };
-		DA3C5BD11BFB79C700186E55 /* XYMallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BD01BFB79C700186E55 /* XYMallocBlock.m */; settings = {ASSET_TAGS = (); }; };
+		DA3C5BCE1BFB78C900186E55 /* XYStackBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BCD1BFB78C900186E55 /* XYStackBlock.m */; };
+		DA3C5BD11BFB79C700186E55 /* XYMallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BD01BFB79C700186E55 /* XYMallocBlock.m */; };
 		DA4B9D5C1BDF78A700440689 /* Demo_ForLoop_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D5B1BDF78A700440689 /* Demo_ForLoop_Test.m */; };
 		DA4B9D6E1BE097F100440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
 		DA4B9D6F1BE09AD300440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
-		DA839E021BFACD8B0042AC41 /* XYCharacterEscaper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA839E011BFACD8B0042AC41 /* XYCharacterEscaper.m */; };
-		DAA082AC1BFB7649005657B0 /* XYGlobalBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA082AB1BFB7649005657B0 /* XYGlobalBlock.m */; settings = {ASSET_TAGS = (); }; };
+		DA76A5B61BFDBD1000EC0ADA /* XYCharacterEscaper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA76A5B51BFDBD1000EC0ADA /* XYCharacterEscaper.m */; };
+		DAA082AC1BFB7649005657B0 /* XYGlobalBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA082AB1BFB7649005657B0 /* XYGlobalBlock.m */; };
 		DAAA96801BF9A934003B0F0C /* NEDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAA967B1BF9A923003B0F0C /* NEDevKit.framework */; };
 		DAD767FE1BD4D4D2005247A3 /* MySwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD767FD1BD4D4D2005247A3 /* MySwiftTest.swift */; };
 		DAD768071BD4F664005247A3 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD768061BD4F664005247A3 /* TextTableViewCell.swift */; };
@@ -122,8 +122,8 @@
 		DA4B9D6D1BE097F100440689 /* NENode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENode.m; sourceTree = "<group>"; };
 		DA61CDD61BC76E900053C4C7 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
 		DA61CE181BC7C3200053C4C7 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
-		DA839E001BFACD8B0042AC41 /* XYCharacterEscaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYCharacterEscaper.h; path = ../demo/CharacterEscaper/XYCharacterEscaper.h; sourceTree = "<group>"; };
-		DA839E011BFACD8B0042AC41 /* XYCharacterEscaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYCharacterEscaper.m; path = ../demo/CharacterEscaper/XYCharacterEscaper.m; sourceTree = "<group>"; };
+		DA76A5B41BFDBD1000EC0ADA /* XYCharacterEscaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCharacterEscaper.h; sourceTree = "<group>"; };
+		DA76A5B51BFDBD1000EC0ADA /* XYCharacterEscaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCharacterEscaper.m; sourceTree = "<group>"; };
 		DAA082AA1BFB7649005657B0 /* XYGlobalBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYGlobalBlock.h; sourceTree = "<group>"; };
 		DAA082AB1BFB7649005657B0 /* XYGlobalBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYGlobalBlock.m; sourceTree = "<group>"; };
 		DAAA96741BF9A923003B0F0C /* NEDevKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NEDevKit.xcodeproj; path = "../demo/3rd-party/NEDevKit.xcodeproj"; sourceTree = "<group>"; };
@@ -177,8 +177,8 @@
 		7F76B8271B8B52140026D8F6 = {
 			isa = PBXGroup;
 			children = (
+				DA76A5B31BFDBD1000EC0ADA /* CharacterEscaper */,
 				DAA082A91BFB7613005657B0 /* Block */,
-				DA839DFC1BFACD560042AC41 /* VCardCharacterEscpae */,
 				DA4B9D681BE097D700440689 /* ChainCoding */,
 				DA61CDF21BC7AB1A0053C4C7 /* 3rd-party */,
 				7FCC3E281B9C61AF004DD872 /* JavacriptCore */,
@@ -340,13 +340,14 @@
 			name = "3rd-party";
 			sourceTree = "<group>";
 		};
-		DA839DFC1BFACD560042AC41 /* VCardCharacterEscpae */ = {
+		DA76A5B31BFDBD1000EC0ADA /* CharacterEscaper */ = {
 			isa = PBXGroup;
 			children = (
-				DA839E001BFACD8B0042AC41 /* XYCharacterEscaper.h */,
-				DA839E011BFACD8B0042AC41 /* XYCharacterEscaper.m */,
+				DA76A5B41BFDBD1000EC0ADA /* XYCharacterEscaper.h */,
+				DA76A5B51BFDBD1000EC0ADA /* XYCharacterEscaper.m */,
 			);
-			name = VCardCharacterEscpae;
+			name = CharacterEscaper;
+			path = ../demo/CharacterEscaper;
 			sourceTree = "<group>";
 		};
 		DAA082A91BFB7613005657B0 /* Block */ = {
@@ -543,6 +544,7 @@
 				DA4B9D6E1BE097F100440689 /* NENode.m in Sources */,
 				7FD2CBCD1B8CAA980091E81C /* Demo_JsonModel.m in Sources */,
 				DA3C5BD11BFB79C700186E55 /* XYMallocBlock.m in Sources */,
+				DA76A5B61BFDBD1000EC0ADA /* XYCharacterEscaper.m in Sources */,
 				DAD768141BD62313005247A3 /* SignatureTableViewCell.swift in Sources */,
 				7F76B8391B8B52140026D8F6 /* AppDelegate.m in Sources */,
 				DAD767FE1BD4D4D2005247A3 /* MySwiftTest.swift in Sources */,
@@ -558,7 +560,6 @@
 				7F76B8361B8B52140026D8F6 /* main.m in Sources */,
 				DA06BC081BD4C92700D65D4D /* TextTableViewController.swift in Sources */,
 				7F76B8601B8B55800026D8F6 /* Demo_NSPredicate.m in Sources */,
-				DA839E021BFACD8B0042AC41 /* XYCharacterEscaper.m in Sources */,
 				DAA082AC1BFB7649005657B0 /* XYGlobalBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
