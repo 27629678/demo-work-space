@@ -80,7 +80,14 @@
     
     _character_text_field = [[UITextField alloc] initWithFrame:CGRectMake(10, 120, 80, 20)];
     [_character_text_field setBackgroundColor:[UIColor grayColor]];
-    [_character_text_field setText:@";,\\;\\;\\;:\\:\n"];
+    NSString* ctlf = @"\\\\,";
+    [_character_text_field setText:ctlf];
+    if ([ctlf isEqualToString:@"\n"]) {
+        NSLog(@"yes");
+    }
+    if ([_character_text_field.text isEqualToString:@"\n"]) {
+        NSLog(@"yes1");
+    }
     [self.view addSubview:_character_text_field];
 }
 
@@ -108,26 +115,36 @@
 {
     NSString* source = _character_text_field.text;
     
-    XYCharacterEscaper* escaper = [XYCharacterEscaper escaperWithSource:source];
-    NSLog(@"\nSource:\t\t%@"
-          "\nSemicolon:\t\t%@"
-          "\nUnsemicolon:\t%@"
-          "\nColon:\t\t%@"
-          "\nUncolon:\t\t%@"
-          "\nComma:\t\t%@"
-          "\nUncomma:\t\t%@"
-          "\nCTLF:\t\t\t%@"
-          "\nUnCTLF:\t\t%@",
-          escaper.value,
-          escaper.escapeSemicolon().value,
-          escaper.unescapeSemicolon().value,
-          escaper.escapeColon().value,
-          escaper.unescapeColon().value,
-          escaper.escapeComma().value,
-          escaper.unescapeComma().value,
-          escaper.unescapeCTLF().value,
-          escaper.escapeCTLF().value
-          );
+    XYCharacterEscaper* escaper = [XYCharacterEscaper escaperWithSource:source              ];
+    NSLog(@"%@", escaper.value);
+    
+    escaper.escapeColon().escapeComma().escapeSemicolon();
+    NSLog(@"%@", escaper.value);
+    
+    escaper.unescapeComma().unescapeColon().unescapeSemicolon();
+    NSLog(@"%@", escaper.value);
+    
+    _character_text_field.text = escaper.value;
+
+//    NSLog(@"\nSource:\t\t%@"
+//          "\nSemicolon:\t\t%@"
+//          "\nUnsemicolon:\t%@"
+//          "\nColon:\t\t%@"
+//          "\nUncolon:\t\t%@"
+//          "\nComma:\t\t%@"
+//          "\nUncomma:\t\t%@"
+//          "\nCTLF:\t\t\t%@"
+//          "\nUnCTLF:\t\t%@",
+//          escaper.value,
+//          escaper.escapeSemicolon().value,
+//          escaper.unescapeSemicolon().value,
+//          escaper.escapeColon().value,
+//          escaper.unescapeColon().value,
+//          escaper.escapeComma().value,
+//          escaper.unescapeComma().value,
+//          escaper.unescapeCTLF().value,
+//          escaper.escapeCTLF().value
+//          );
     
 }
 

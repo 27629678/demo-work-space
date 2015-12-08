@@ -188,6 +188,7 @@
 				DA4B9D681BE097D700440689 /* ChainCoding */,
 				7FCC3E281B9C61AF004DD872 /* JavacriptCore */,
 				7F6038EC1B91836B00B1E362 /* NEVariableArguments */,
+				DA43D7781C16B23800E11F98 /* DeclarativeProgramming */,
 				7F86C14B1B8F4081002570FC /* NEWebView */,
 				7F76B85A1B8B52C50026D8F6 /* Base */,
 				7F3093251B8D904900C7D4B4 /* NECompare */,
@@ -350,6 +351,14 @@
 				DA088E711BFDD2D6002B5118 /* NEDevKitTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DA43D7781C16B23800E11F98 /* DeclarativeProgramming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DeclarativeProgramming;
+			path = ../demo/DeclarativeProgramming;
 			sourceTree = "<group>";
 		};
 		DA4B9D681BE097D700440689 /* ChainCoding */ = {
