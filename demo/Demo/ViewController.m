@@ -19,6 +19,8 @@
 #import "objc-Swift.h"
 #import "XYCharacterEscaper.h"
 
+#import "XYDeclarativeTableViewController.h"
+
 @interface ViewController ()
 
 @property (nonatomic) Demo_Compare* compareDemo;
@@ -66,6 +68,13 @@
                            ?: [[[NSBundle mainBundle] infoDictionary] objectForKey:(__bridge NSString *)kCFBundleIdentifierKey],
                            [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"] ?: [[[NSBundle mainBundle] infoDictionary] objectForKey:(__bridge NSString *)kCFBundleVersionKey], [[UIDevice currentDevice] model], [[UIDevice currentDevice] systemVersion], [[UIScreen mainScreen] scale]];
     NSLog(@"%@", userAgent);
+}
+
+- (void)presentDeclarativeTableVC
+{
+    XYDeclarativeTableViewController* svc = [[XYDeclarativeTableViewController alloc] init];
+    UINavigationController* nvc = [[UINavigationController alloc] initWithRootViewController:svc];
+    [self presentViewController:nvc animated:YES completion:NULL];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -146,6 +155,7 @@
 //          escaper.escapeCTLF().value
 //          );
     
+    [self presentDeclarativeTableVC];
 }
 
 @end

@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong) NSArray* cell_items;
 
+@property (nonatomic, strong) NSArray* cell_items_for_display;
+
 @end
 
 @implementation XYTableViewModel
@@ -26,7 +28,7 @@
     _cell_items = items.copy;
 }
 
-- (NSArray *)itemsForDisplay
+- (void)applyCurrentState
 {
     NSMutableArray* items = [NSMutableArray new];
     for (XYTableViewCellDataItem* item in _cell_items) {
@@ -35,7 +37,17 @@
         }
     }
     
-    return items.copy;
+    _cell_items_for_display = items.copy;
+}
+
+- (NSInteger)items_count_for_display
+{
+    return _cell_items_for_display.count;
+}
+
+- (XYTableViewCellDataItem *)itemWithIndexPath:(NSIndexPath *)index_path
+{
+    return [_cell_items_for_display objectAtIndex:index_path.row];
 }
 
 @end
