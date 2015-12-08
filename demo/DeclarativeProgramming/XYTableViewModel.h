@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+#import "XYTableViewCellDataItem.h"
+
+typedef XYTableViewCellDataItem* (^XYTVMAddItemHandler)(NSString *title);
+
 @interface XYTableViewModel : NSObject
+
++ (instancetype)tableViewModel;
+
+- (void)addCellItems:(NSArray *)items;
 
 @end
