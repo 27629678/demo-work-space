@@ -34,6 +34,7 @@
 		DA088E721BFDD2DF002B5118 /* NEDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA088E6D1BFDD2D6002B5118 /* NEDevKit.framework */; };
 		DA3C5BCE1BFB78C900186E55 /* XYStackBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BCD1BFB78C900186E55 /* XYStackBlock.m */; };
 		DA3C5BD11BFB79C700186E55 /* XYMallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BD01BFB79C700186E55 /* XYMallocBlock.m */; };
+		DA43D77E1C16B33C00E11F98 /* XYTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43D77D1C16B33C00E11F98 /* XYTableViewModel.m */; };
 		DA4B9D5C1BDF78A700440689 /* Demo_ForLoop_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D5B1BDF78A700440689 /* Demo_ForLoop_Test.m */; };
 		DA4B9D6E1BE097F100440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
 		DA4B9D6F1BE09AD300440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
@@ -126,6 +127,8 @@
 		DA3C5BCD1BFB78C900186E55 /* XYStackBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYStackBlock.m; sourceTree = "<group>"; };
 		DA3C5BCF1BFB79C700186E55 /* XYMallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMallocBlock.h; sourceTree = "<group>"; };
 		DA3C5BD01BFB79C700186E55 /* XYMallocBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMallocBlock.m; sourceTree = "<group>"; };
+		DA43D77C1C16B33C00E11F98 /* XYTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTableViewModel.h; sourceTree = "<group>"; };
+		DA43D77D1C16B33C00E11F98 /* XYTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTableViewModel.m; sourceTree = "<group>"; };
 		DA4B9D5B1BDF78A700440689 /* Demo_ForLoop_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo_ForLoop_Test.m; sourceTree = "<group>"; };
 		DA4B9D6C1BE097F100440689 /* NENode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENode.h; sourceTree = "<group>"; };
 		DA4B9D6D1BE097F100440689 /* NENode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENode.m; sourceTree = "<group>"; };
@@ -356,6 +359,8 @@
 		DA43D7781C16B23800E11F98 /* DeclarativeProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				DA43D77C1C16B33C00E11F98 /* XYTableViewModel.h */,
+				DA43D77D1C16B33C00E11F98 /* XYTableViewModel.m */,
 			);
 			name = DeclarativeProgramming;
 			path = ../demo/DeclarativeProgramming;
@@ -573,6 +578,7 @@
 				DAD7680A1BD5D89A005247A3 /* TextViewController.swift in Sources */,
 				7F6038EF1B91839100B1E362 /* Demo_VariableArguments.m in Sources */,
 				DAD7680E1BD60C18005247A3 /* SignatureSettingViewController.swift in Sources */,
+				DA43D77E1C16B33C00E11F98 /* XYTableViewModel.m in Sources */,
 				DA3C5BCE1BFB78C900186E55 /* XYStackBlock.m in Sources */,
 				7F76B85D1B8B53090026D8F6 /* NETest.m in Sources */,
 				DAD768071BD4F664005247A3 /* TextTableViewCell.swift in Sources */,
