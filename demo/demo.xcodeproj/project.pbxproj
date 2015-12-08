@@ -20,8 +20,6 @@
 		7F76B8601B8B55800026D8F6 /* Demo_NSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F76B85F1B8B55800026D8F6 /* Demo_NSPredicate.m */; };
 		7F86C14F1B8F40C4002570FC /* Demo_WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F86C14D1B8F40C4002570FC /* Demo_WebViewController.m */; };
 		7F86C1501B8F40C4002570FC /* Demo_WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F86C14E1B8F40C4002570FC /* Demo_WebViewController.xib */; };
-		7F9FF9281B9E750500006261 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 7F9FF9271B9E750500006261 /* main.js */; };
-		7FCC3E2B1B9C61CF004DD872 /* Demo_JavascriptCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC3E2A1B9C61CF004DD872 /* Demo_JavascriptCore.m */; };
 		7FD2CBC71B8CA8480091E81C /* NEJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2CBC61B8CA8480091E81C /* NEJsonModel.m */; };
 		7FD2CBCA1B8CA8F70091E81C /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2CBC91B8CA8F70091E81C /* JSONValueTransformer.m */; };
 		7FD2CBCD1B8CAA980091E81C /* Demo_JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2CBCC1B8CAA980091E81C /* Demo_JsonModel.m */; };
@@ -32,6 +30,8 @@
 		DA088E641BFDD2D3002B5118 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DA088E5F1BFDD2D3002B5118 /* README.md */; };
 		DA088E651BFDD2D3002B5118 /* XYCharacterEscaper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA088E611BFDD2D3002B5118 /* XYCharacterEscaper.m */; };
 		DA088E721BFDD2DF002B5118 /* NEDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA088E6D1BFDD2D6002B5118 /* NEDevKit.framework */; };
+		DA1DDB661C16D5D000754271 /* Demo_JavascriptCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DDB641C16D5D000754271 /* Demo_JavascriptCore.m */; };
+		DA1DDB671C16D5D000754271 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = DA1DDB651C16D5D000754271 /* main.js */; };
 		DA3C5BCE1BFB78C900186E55 /* XYStackBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BCD1BFB78C900186E55 /* XYStackBlock.m */; };
 		DA3C5BD11BFB79C700186E55 /* XYMallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C5BD01BFB79C700186E55 /* XYMallocBlock.m */; };
 		DA43D77E1C16B33C00E11F98 /* XYTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43D77D1C16B33C00E11F98 /* XYTableViewModel.m */; };
@@ -107,9 +107,6 @@
 		7F86C14C1B8F40C4002570FC /* Demo_WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo_WebViewController.h; sourceTree = "<group>"; };
 		7F86C14D1B8F40C4002570FC /* Demo_WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo_WebViewController.m; sourceTree = "<group>"; };
 		7F86C14E1B8F40C4002570FC /* Demo_WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo_WebViewController.xib; sourceTree = "<group>"; };
-		7F9FF9271B9E750500006261 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		7FCC3E291B9C61CF004DD872 /* Demo_JavascriptCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo_JavascriptCore.h; sourceTree = "<group>"; };
-		7FCC3E2A1B9C61CF004DD872 /* Demo_JavascriptCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo_JavascriptCore.m; sourceTree = "<group>"; };
 		7FD2CBC51B8CA8480091E81C /* NEJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NEJsonModel.h; path = NEJsonModel/NEJsonModel.h; sourceTree = "<group>"; };
 		7FD2CBC61B8CA8480091E81C /* NEJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NEJsonModel.m; path = NEJsonModel/NEJsonModel.m; sourceTree = "<group>"; };
 		7FD2CBC81B8CA8F70091E81C /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = NEJsonModel/JSONValueTransformer.h; sourceTree = "<group>"; };
@@ -125,6 +122,9 @@
 		DA088E601BFDD2D3002B5118 /* XYCharacterEscaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCharacterEscaper.h; sourceTree = "<group>"; };
 		DA088E611BFDD2D3002B5118 /* XYCharacterEscaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCharacterEscaper.m; sourceTree = "<group>"; };
 		DA088E661BFDD2D6002B5118 /* NEDevKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NEDevKit.xcodeproj; path = "../demo/3rd-party/uitoolkit_ios/NEDevKit.xcodeproj"; sourceTree = "<group>"; };
+		DA1DDB631C16D5D000754271 /* Demo_JavascriptCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo_JavascriptCore.h; sourceTree = "<group>"; };
+		DA1DDB641C16D5D000754271 /* Demo_JavascriptCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo_JavascriptCore.m; sourceTree = "<group>"; };
+		DA1DDB651C16D5D000754271 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		DA3C5BCC1BFB78C900186E55 /* XYStackBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYStackBlock.h; sourceTree = "<group>"; };
 		DA3C5BCD1BFB78C900186E55 /* XYStackBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYStackBlock.m; sourceTree = "<group>"; };
 		DA3C5BCF1BFB79C700186E55 /* XYMallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMallocBlock.h; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				DA088E5B1BFDD2C5002B5118 /* 3rd-party */,
 				DAA082A91BFB7613005657B0 /* Block */,
 				DA4B9D681BE097D700440689 /* ChainCoding */,
-				7FCC3E281B9C61AF004DD872 /* JavacriptCore */,
+				DA1DDB621C16D5D000754271 /* JavaScriptCore */,
 				7F6038EC1B91836B00B1E362 /* NEVariableArguments */,
 				DA43D7781C16B23800E11F98 /* DeclarativeProgramming */,
 				7F86C14B1B8F4081002570FC /* NEWebView */,
@@ -294,16 +294,6 @@
 			path = NEWebView;
 			sourceTree = "<group>";
 		};
-		7FCC3E281B9C61AF004DD872 /* JavacriptCore */ = {
-			isa = PBXGroup;
-			children = (
-				7FCC3E291B9C61CF004DD872 /* Demo_JavascriptCore.h */,
-				7FCC3E2A1B9C61CF004DD872 /* Demo_JavascriptCore.m */,
-				7F9FF9271B9E750500006261 /* main.js */,
-			);
-			path = JavacriptCore;
-			sourceTree = "<group>";
-		};
 		7FD2CBC41B8CA8030091E81C /* NEJsonModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +350,17 @@
 				DA088E711BFDD2D6002B5118 /* NEDevKitTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1DDB621C16D5D000754271 /* JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				DA1DDB631C16D5D000754271 /* Demo_JavascriptCore.h */,
+				DA1DDB641C16D5D000754271 /* Demo_JavascriptCore.m */,
+				DA1DDB651C16D5D000754271 /* main.js */,
+			);
+			name = JavaScriptCore;
+			path = ../demo/JavaScriptCore;
 			sourceTree = "<group>";
 		};
 		DA43D7781C16B23800E11F98 /* DeclarativeProgramming */ = {
@@ -560,9 +561,9 @@
 				DA088E631BFDD2D3002B5118 /* LICENSE in Resources */,
 				7F76B8411B8B52140026D8F6 /* Images.xcassets in Resources */,
 				DAD768151BD62313005247A3 /* SignatureTableViewCell.xib in Resources */,
-				7F9FF9281B9E750500006261 /* main.js in Resources */,
 				DA088E621BFDD2D3002B5118 /* .gitignore in Resources */,
 				DA06BC091BD4C92700D65D4D /* TextTableViewController.xib in Resources */,
+				DA1DDB671C16D5D000754271 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1DDB661C16D5D000754271 /* Demo_JavascriptCore.m in Sources */,
 				7F86C14F1B8F40C4002570FC /* Demo_WebViewController.m in Sources */,
 				7FD2CBC71B8CA8480091E81C /* NEJsonModel.m in Sources */,
 				DAD768111BD60C66005247A3 /* UserDataManager.swift in Sources */,
@@ -602,7 +604,6 @@
 				7F76B85D1B8B53090026D8F6 /* NETest.m in Sources */,
 				DAD768071BD4F664005247A3 /* TextTableViewCell.swift in Sources */,
 				DA43D7851C16BF0400E11F98 /* XYDeclarativeTableViewController.m in Sources */,
-				7FCC3E2B1B9C61CF004DD872 /* Demo_JavascriptCore.m in Sources */,
 				7FD2CBCA1B8CA8F70091E81C /* JSONValueTransformer.m in Sources */,
 				7F76B8361B8B52140026D8F6 /* main.m in Sources */,
 				DA06BC081BD4C92700D65D4D /* TextTableViewController.swift in Sources */,
