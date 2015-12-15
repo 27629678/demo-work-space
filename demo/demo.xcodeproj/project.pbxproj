@@ -41,6 +41,8 @@
 		DA4B9D6E1BE097F100440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
 		DA4B9D6F1BE09AD300440689 /* NENode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9D6D1BE097F100440689 /* NENode.m */; };
 		DAA082AC1BFB7649005657B0 /* XYGlobalBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA082AB1BFB7649005657B0 /* XYGlobalBlock.m */; };
+		DABA31371C2009FA0008CA7F /* XYTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA31351C2009FA0008CA7F /* XYTextFieldViewController.m */; };
+		DABA31381C2009FA0008CA7F /* XYTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DABA31361C2009FA0008CA7F /* XYTextFieldViewController.xib */; };
 		DAD767FE1BD4D4D2005247A3 /* MySwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD767FD1BD4D4D2005247A3 /* MySwiftTest.swift */; };
 		DAD768071BD4F664005247A3 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD768061BD4F664005247A3 /* TextTableViewCell.swift */; };
 		DAD7680A1BD5D89A005247A3 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD768081BD5D89A005247A3 /* TextViewController.swift */; };
@@ -142,6 +144,9 @@
 		DA61CE181BC7C3200053C4C7 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
 		DAA082AA1BFB7649005657B0 /* XYGlobalBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYGlobalBlock.h; sourceTree = "<group>"; };
 		DAA082AB1BFB7649005657B0 /* XYGlobalBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYGlobalBlock.m; sourceTree = "<group>"; };
+		DABA31341C2009FA0008CA7F /* XYTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTextFieldViewController.h; sourceTree = "<group>"; };
+		DABA31351C2009FA0008CA7F /* XYTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTextFieldViewController.m; sourceTree = "<group>"; };
+		DABA31361C2009FA0008CA7F /* XYTextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYTextFieldViewController.xib; sourceTree = "<group>"; };
 		DAD767FD1BD4D4D2005247A3 /* MySwiftTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySwiftTest.swift; path = Swift/MySwiftTest.swift; sourceTree = "<group>"; };
 		DAD768061BD4F664005247A3 /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		DAD768081BD5D89A005247A3 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +197,7 @@
 		7F76B8271B8B52140026D8F6 = {
 			isa = PBXGroup;
 			children = (
+				DABA312F1C2009A00008CA7F /* UIKit */,
 				DA088E5B1BFDD2C5002B5118 /* 3rd-party */,
 				DAA082A91BFB7613005657B0 /* Block */,
 				DA4B9D681BE097D700440689 /* ChainCoding */,
@@ -416,6 +422,25 @@
 			path = ../demo/Block;
 			sourceTree = "<group>";
 		};
+		DABA312F1C2009A00008CA7F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DABA31301C2009A00008CA7F /* UITextField */,
+			);
+			name = UIKit;
+			path = ../demo/UIKit;
+			sourceTree = "<group>";
+		};
+		DABA31301C2009A00008CA7F /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				DABA31341C2009FA0008CA7F /* XYTextFieldViewController.h */,
+				DABA31351C2009FA0008CA7F /* XYTextFieldViewController.m */,
+				DABA31361C2009FA0008CA7F /* XYTextFieldViewController.xib */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
 		DAD767F91BD4D491005247A3 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +580,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F86C1501B8F40C4002570FC /* Demo_WebViewController.xib in Resources */,
+				DABA31381C2009FA0008CA7F /* XYTextFieldViewController.xib in Resources */,
 				7F76B83F1B8B52140026D8F6 /* Main.storyboard in Resources */,
 				7F76B8441B8B52140026D8F6 /* LaunchScreen.xib in Resources */,
 				DAD7680B1BD5D89A005247A3 /* TextViewController.xib in Resources */,
@@ -597,6 +623,7 @@
 				7F3093281B8D907700C7D4B4 /* Demo_Compare.m in Sources */,
 				DAD7680A1BD5D89A005247A3 /* TextViewController.swift in Sources */,
 				7F6038EF1B91839100B1E362 /* Demo_VariableArguments.m in Sources */,
+				DABA31371C2009FA0008CA7F /* XYTextFieldViewController.m in Sources */,
 				DAD7680E1BD60C18005247A3 /* SignatureSettingViewController.swift in Sources */,
 				DA43D77E1C16B33C00E11F98 /* XYTableViewModel.m in Sources */,
 				DA3C5BCE1BFB78C900186E55 /* XYStackBlock.m in Sources */,

@@ -19,6 +19,7 @@
 #import "objc-Swift.h"
 #import "XYCharacterEscaper.h"
 
+#import "XYTextFieldViewController.h"
 #import "XYDeclarativeTableViewController.h"
 
 @interface ViewController ()
@@ -73,6 +74,14 @@
 - (void)presentDeclarativeTableVC
 {
     XYDeclarativeTableViewController* svc = [[XYDeclarativeTableViewController alloc] init];
+    UINavigationController* nvc = [[UINavigationController alloc] initWithRootViewController:svc];
+    [self presentViewController:nvc animated:YES completion:NULL];
+}
+
+- (void)presentTextFieldVC
+{
+    XYTextFieldViewController* svc = [[XYTextFieldViewController alloc]
+                                      initWithNibName:@"XYTextFieldViewController" bundle:nil];
     UINavigationController* nvc = [[UINavigationController alloc] initWithRootViewController:svc];
     [self presentViewController:nvc animated:YES completion:NULL];
 }
@@ -155,7 +164,8 @@
 //          escaper.escapeCTLF().value
 //          );
     
-    [self presentDeclarativeTableVC];
+//    [self presentDeclarativeTableVC];
+    [self presentTextFieldVC];
 }
 
 @end
