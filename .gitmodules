@@ -1,6 +1,6 @@
-[submodule "demo/3rd-party/character_escaper"]
-	path = demo/3rd-party/character_escaper
+[submodule "3rd-party/character_escaper"]
+	path = 3rd-party/character_escaper
 	url = https://github.com/27629678/character_escaper.git
-[submodule "demo/3rd-party/uitoolkit_ios"]
-	path = demo/3rd-party/uitoolkit_ios
+[submodule "3rd-party/uitoolkit_ios"]
+	path = 3rd-party/uitoolkit_ios
 	url = https://github.com/27629678/uitoolkit_ios.git
