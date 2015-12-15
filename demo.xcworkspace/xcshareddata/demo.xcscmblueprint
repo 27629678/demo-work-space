@@ -10,13 +10,13 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "455F18F1-55E6-4E8F-A2A8-04AED5737269",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "2D8A02A3717086D8B9DA648B3F9A84A1B5BD25CA" : "demo\/demo\/3rd-party\/uitoolkit_ios\/",
-    "BD11BF60E5E336C06D6092422F798C2767EE26EA" : "demo\/demo\/3rd-party\/character_escaper\/",
+    "2D8A02A3717086D8B9DA648B3F9A84A1B5BD25CA" : "demo\/3rd_party\/uitoolkit_ios\/",
+    "BD11BF60E5E336C06D6092422F798C2767EE26EA" : "demo\/3rd_party\/character_escaper\/",
     "D324E39789C8A11D2BDECB1D770CE0300081435C" : "demo\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "demo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "demo\/demo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "demo.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/27629678\/uitoolkit_ios.git",
